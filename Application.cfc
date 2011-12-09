@@ -2,7 +2,7 @@
 	<cfset this.Name="Application">
 	<cfset this.sessionManagement="yes">
 	<cfset this.sessionTimeout=createtimespan(0,0,1,0)>
-	<cfset this.WelcomeFileList='AdministratorAPI.cfm,index.cfm'>
+	<cfset this.WelcomeFileList=''>
     
     <cffunction name="onApplicationStart" access="public" returntype="boolean">
     	<cfset JavaCast('integer',variables.teste)>
