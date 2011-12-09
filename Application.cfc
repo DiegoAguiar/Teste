@@ -12,7 +12,7 @@
 		<cfargument name="Exception" type="any" required="true"/>
         <cfargument name="EventName" type="string"/>
 		<cfdump var="#arguments.Exception#" label="Exception">
-        <cfdump var="#arguments.EventName#" label="EventName"><cfabort>
+        <cfdump var="#arguments.Name#" label="EventName"><cfabort>
     </cffunction>
     
     
